@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-const apiKey = "ВАШ_API_КЛЮЧ_VIRUSTOTAL";
+const apiKey = "3f5fa2f2b0c6bb931ad2d29d40d3b74104febdd469048fe6a7acdd5ae049373d";
 
 // Проверка ссылки
 app.post('/check-link', async (req, res) => {
